@@ -5,19 +5,19 @@ class Shoe
 BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-    if BRANDS.none? (brand)
-      BRANDS << brand
-    end
+    # @brand = brand
+    # if BRANDS.none? (brand)
+    #   BRANDS << brand
+    # end
   end
 
   def cobble
-    self.condition = "new"
-    puts "Your shoe is as good as new!"
+    # self.condition = "new"
+    # puts "Your shoe is as good as new!"
   end
 
   def brand= (brand)
-    @brand = brand
+    # @brand = brand
   end
 
 end
